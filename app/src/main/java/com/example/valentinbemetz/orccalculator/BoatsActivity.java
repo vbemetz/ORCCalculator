@@ -55,8 +55,7 @@ public class BoatsActivity extends AppCompatActivity {
                 Intent intent = getIntent();
                 intent.putExtra(ADD_BOAT_TO_COMPETITOR,clickedBoat.getId());
                 setResult(RESULT_OK,intent);
-                startActivity(intent);
-                // finish();
+                finish();
             }
         });
 
