@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RaceActivity">
+        <activity android:name=".RegattaActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,8 @@
         <activity android:name=".CreateBoatActivity" />
         <activity android:name=".EditBoatActivity" />
         <activity android:name=".BoatsActivity" />
-        <activity android:name=".TimePickerActivity"></activity>
+        <activity android:name=".TimePickerActivity" />
+        <activity android:name=".RaceActivity"></activity>
     </application>
 
 </manifest>
